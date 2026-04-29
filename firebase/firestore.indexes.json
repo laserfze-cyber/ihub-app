@@ -1,0 +1,114 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Ride_requests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "customerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Ride_requests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "customerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Crane_or_taxi",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "LOGIN",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Is_this_em_lift",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_this_driver",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "driver_on_off",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "LOGIN",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Is_this_em_lift",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_this_driver",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "LOGIN",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Is_this_em_lift",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "currentRideId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "finishtime",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

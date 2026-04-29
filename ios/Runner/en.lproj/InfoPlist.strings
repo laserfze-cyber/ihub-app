@@ -1,0 +1,3 @@
+NSLocationWhenInUseUsageDescription = "We use your location while the app is in use to display your position on the map and to help you find nearby car recovery and mechanic services.
+";
+NSLocationAlwaysAndWhenInUseUsageDescription = "This app may request access to location services to show your position on the map and to find nearby car recovery and mechanic services while you are using the app. Location is not collected or shared when the app is closed or when you sign out.";
